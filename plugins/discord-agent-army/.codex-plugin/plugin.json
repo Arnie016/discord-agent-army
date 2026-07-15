@@ -1,0 +1,41 @@
+{
+  "name": "discord-agent-army",
+  "version": "0.1.0",
+  "description": "Scaffold and operate multiple isolated Discord communities with contract-governed AI agent teams and human approval gates.",
+  "author": {
+    "name": "Arnav Salkade",
+    "url": "https://github.com/Arnie016"
+  },
+  "homepage": "https://github.com/Arnie016/discord-agent-army",
+  "repository": "https://github.com/Arnie016/discord-agent-army",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "agents",
+    "community",
+    "multi-server",
+    "automation",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Discord Agent Army",
+    "shortDescription": "Contract-governed agents for multiple Discord servers",
+    "longDescription": "Create isolated Discord community instances, define agent autonomy and approval contracts, and manage a fleet with dry-run-first provisioning.",
+    "developerName": "Arnav Salkade",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Scaffold a Discord community with the default agent army",
+      "Show the dry-run plan for all managed Discord servers",
+      "Add a contract-governed support agent to my community"
+    ],
+    "brandColor": "#5865F2",
+    "composerIcon": "./assets/logo.png",
+    "screenshots": []
+  }
+}

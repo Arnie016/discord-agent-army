@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/discord-agent-army/community.schema.json",
+  "title": "Discord Community Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contractVersion", "tenant", "discord", "runtime", "agents", "approvals", "data"],
+  "properties": {
+    "contractVersion": { "const": "1.0" },
+    "tenant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "displayName"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]{1,63}$" },
+        "displayName": { "type": "string", "minLength": 2, "maxLength": 100 }
+      }
+    },
+    "discord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["guildId", "clientId", "credentialMode"],
+      "properties": {
+        "guildId": { "type": "string", "pattern": "^[0-9]{15,22}$" },
+        "clientId": { "type": "string", "pattern": "^[0-9]{15,22}$" },
+        "credentialMode": { "const": "local-env" }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode"],
+      "properties": { "mode": { "enum": ["isolated-process", "shared-worker"] } }
+    },
+    "agents": { "type": "array", "minItems": 1, "items": { "$ref": "agent.schema.json" } },
+    "approvals": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["messageTraining", "retentionDays"],
+      "properties": {
+        "messageTraining": { "const": false },
+        "retentionDays": { "type": "integer", "minimum": 0, "maximum": 365 }
+      }
+    }
+  }
+}

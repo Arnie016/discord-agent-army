@@ -1,0 +1,16 @@
+{
+  "pluginName": "Discord Agent Army",
+  "shortDescription": "Scaffold and operate contract-governed Discord bot teams with human approval gates.",
+  "longDescription": "Discord Agent Army is a skills-only Codex plugin that creates isolated, configurable Discord community bots. It includes FAQ-first support tickets, human-reviewed verification, opt-in interest roles, disclosed welcomes and scheduled posts, removable simulations, dry-run provisioning, and fleet health checks. Safety contracts prohibit self-bots, deceptive human impersonation, secret leakage, spam, and autonomous punitive moderation.",
+  "category": "Developer Tools",
+  "website": "https://github.com/Arnie016/discord-agent-army",
+  "supportUrl": "https://github.com/Arnie016/discord-agent-army/issues",
+  "privacyPolicyUrl": "https://github.com/Arnie016/discord-agent-army/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/Arnie016/discord-agent-army/blob/main/TERMS.md",
+  "logoPath": "plugins/discord-agent-army/assets/logo.png",
+  "starterPrompts": [
+    "Scaffold a Discord community with the default agent army.",
+    "Show the dry-run plan for all managed Discord servers.",
+    "Add a contract-governed support agent with human escalation."
+  ]
+}

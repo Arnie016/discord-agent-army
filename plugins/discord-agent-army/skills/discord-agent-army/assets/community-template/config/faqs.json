@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start",
+    "question": "How do I get started?",
+    "keywords": ["start", "begin", "new", "onboarding"],
+    "answer": "Complete human verification in #verification, choose your interests in #choose-interests, then introduce yourself in the appropriate community channel."
+  },
+  {
+    "id": "verification",
+    "question": "How does verification work?",
+    "keywords": ["verify", "verification", "verified", "access"],
+    "answer": "Submit the verification form. A human reviewer will approve or reject it; the AI assistant never makes that decision."
+  },
+  {
+    "id": "support",
+    "question": "How do I contact support?",
+    "keywords": ["support", "help", "ticket", "problem"],
+    "answer": "Open a private ticket in #open-a-ticket. The assistant will try the approved FAQ first and mark the ticket pending-human when a reviewer is needed."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Discord Agent Army"
+  },
+  "name": "discord-agent-army",
+  "plugins": [
+    {
+      "category": "Developer Tools",
+      "name": "discord-agent-army",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./plugins/discord-agent-army",
+        "source": "local"
+      }
+    }
+  ]
+}

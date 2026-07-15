@@ -1,0 +1,24 @@
+{
+  "guildLabel": "Your Community",
+  "faqThreshold": 0.34,
+  "roles": {
+    "humanReviewer": "Human Support",
+    "verified": "Verified",
+    "interests": [
+      { "key": "ai-builders", "name": "AI Builders", "description": "Building AI products", "emoji": "🛠️" },
+      { "key": "research", "name": "AI Research", "description": "Papers and experiments", "emoji": "🔬" },
+      { "key": "events", "name": "Events", "description": "AMAs and community events", "emoji": "🎉" }
+    ]
+  },
+  "channels": {
+    "ticketCategory": "SUPPORT TICKETS",
+    "ticketPanel": "open-a-ticket",
+    "verificationPanel": "verification",
+    "verificationQueue": "verification-review",
+    "interests": "choose-interests",
+    "faq": "faq",
+    "hype": "hype",
+    "welcome": "welcome-lounge",
+    "news": "agent-news-lab"
+  }
+}
