@@ -8,7 +8,7 @@ It includes reusable support-ticket, FAQ, human-verification, interest-role, wel
 
 ```bash
 codex plugin marketplace add Arnie016/discord-agent-army
-codex plugin install discord-agent-army@discord-agent-army
+codex plugin add discord-agent-army@discord-agent-army
 ```
 
 Restart Codex after installing. Then try:
