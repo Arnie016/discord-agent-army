@@ -1,6 +1,7 @@
 # OpenAI submission checklist
 
-- [x] Public GitHub-ready skills-only plugin bundle
+- [x] Public GitHub repository and v0.1.0 release
+- [x] Fresh Codex install verified from the public marketplace
 - [x] Plugin name and descriptions
 - [x] Logo asset
 - [x] Category and website
